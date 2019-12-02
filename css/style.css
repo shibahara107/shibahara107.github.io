@@ -115,15 +115,15 @@ img {
 }
 
 #home {
-  background-image: url(../images/top-image.png);
+  background-image: url(../images/top-image.jpg);
   min-height: 100vh;
 }
 #bio {
-  background-image: url(../images/bio-image.png);
+  background-image: url(../images/bio-image.jpg);
   min-height: 100vh;
 }
 #works {
-  background-image: url(../images/works-image.png);
+  background-image: url(../images/works-image.jpg);
   min-height: 100vh;
 }
 #home #bio #works .page-title {
