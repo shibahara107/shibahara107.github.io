@@ -126,7 +126,10 @@ img {
   background-image: url(../images/works-image.jpg);
   min-height: 100vh;
 }
-#home #bio #works .page-title {
+#no-bg {
+  min-height: 100vh;
+}
+#home #bio #works #no-bg .page-title {
   text-transform: none;
 }
 
