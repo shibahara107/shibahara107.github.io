@@ -6,7 +6,7 @@ html {
 }
 body{
   font-family: 'Roboto Mono', monospace;
-  line-height: 1.5;
+  line-height: 1.7;
   color: grey;
   background-color: black;
 }
@@ -155,7 +155,7 @@ img {
 .highlight span {
   background-color: black;
   display: inline;
-  padding: 0.45rem;
+  padding: 0.3rem;
   box-decoration-break: clone;
 }
 .highlight {
