@@ -9,6 +9,7 @@ body{
   line-height: 1.5;
   color: grey;
   background-color: black;
+  height: 100%;
 }
 a {
   text-decoration: none;
@@ -150,6 +151,15 @@ img {
   padding 0 7%;
   background-color: black;
 }
+/* .wrapper-footer {
+  max-width: 2500px;
+  min-height: 100vh;
+  poition: relative;
+  padding-bottom: 200px;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin-bottom: -50px;
+} */
 
 /* HIGHLIGHT */
 .highlight span {
@@ -160,6 +170,14 @@ img {
 }
 .highlight {
   margin-bottom: -15px;
+}
+
+.container {
+  /* position: relative;
+  width: 100%;
+  height: auto !important;
+  height: 100%; */
+  min-height: 100%;
 }
 
 /* BACKGROUND-IMAGE */
@@ -186,7 +204,9 @@ img {
 footer {
   background: black;
   text-align: center;
-  padding: 26px 0;
+  /* padding: 26px 0; */
+  height: 200px;
+  margin-top: -100px;
 }
 footer p{
   color: grey;
