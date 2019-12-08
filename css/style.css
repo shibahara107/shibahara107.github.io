@@ -52,16 +52,17 @@ img {
     padding: 0 7%;
     line-height: 1.7;
     font-size: 90%;
+    position: relative; top: 15vh;
   }
 
   /* GRID */
   .grid {
     display: grid;
-    gap: 100px;
+    gap: 150px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 8%;
     margin-bottom: : 10%;
-    position: relative; top: 40vh;
+    position: relative; top: 30vh;
   }
 
   /* BACKGROUND */
@@ -104,7 +105,7 @@ img {
     padding: 0 7%;
     line-height: 1.7;
     font-size: 80%;
-    position: relative; top: 40vh;
+    position: relative; top: 30vh;
   }
 
   /* GRID */
@@ -165,18 +166,18 @@ img {
 /* BACKGROUND-IMAGE */
 #home {
   background-image: url(../images/top-image.jpg);
-  min-height: 100vh;
+  min-height: 150vh;
 }
 #bio {
   background-image: url(../images/bio-image.jpg);
-  min-height: 100vh;
+  min-height: 150vh;
 }
 #works {
   background-image: url(../images/works-image.jpg);
-  min-height: 100vh;
+  min-height: 150vh;
 }
 #no-bg {
-  min-height: 100vh;
+  min-height: 150vh;
 }
 #home #bio #works #no-bg .page-title {
   text-transform: none;
