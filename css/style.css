@@ -9,6 +9,7 @@ body{
   line-height: 1.5;
   color: grey;
   background-color: black;
+  height: 100%;
 }
 a {
   text-decoration: none;
@@ -38,7 +39,7 @@ img {
     justify-content: space-between;
   }
 
-/* WRAPPER */
+  /* WRAPPER */
   .wrapper-2 {
     max-width: 1500px;
     margin: 0 auto;
@@ -61,6 +62,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 8%;
     margin-bottom: : 10%;
+    position: relative; top: 40vh;
   }
 
   /* BACKGROUND */
@@ -80,6 +82,7 @@ img {
     text-transform: capitalize;
     margin-top: 40px;
     list-style: none;
+    white-space: nowrap;
   }
   .page-header {
     display: flex;
@@ -101,6 +104,8 @@ img {
     padding: 0 7%;
     line-height: 1.7;
     font-size: 80%;
+    position: relative; top: 40vh;
+    padding-bottom: 200px;
   }
 
   /* GRID */
@@ -110,6 +115,7 @@ img {
     grid-template-columns: 1fr 1fr;
     margin-top: 6%;
     margin-bottom: 6%;
+    position: relative; top: 40vh;
   }
 
   /* BACKGROUND */
@@ -144,6 +150,15 @@ img {
   padding 0 7%;
   background-color: black;
 }
+/* .wrapper-footer {
+  max-width: 2500px;
+  min-height: 100vh;
+  poition: relative;
+  padding-bottom: 200px;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin-bottom: -50px;
+} */
 
 /* HIGHLIGHT */
 .highlight span {
@@ -154,6 +169,14 @@ img {
 }
 .highlight {
   margin-bottom: -15px;
+}
+
+.container {
+  /* position: relative;
+  width: 100%;
+  height: auto !important;
+  height: 100%; */
+  min-height: 100%;
 }
 
 /* BACKGROUND-IMAGE */
@@ -180,7 +203,9 @@ img {
 footer {
   background: black;
   text-align: center;
-  padding: 26px 0;
+  /* padding: 26px 0; */
+  height: 200px;
+  margin-top: -100px;
 }
 footer p{
   color: grey;
