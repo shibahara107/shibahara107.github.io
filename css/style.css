@@ -221,7 +221,8 @@ img {
 .highlight span {
   background-color: black;
   display: inline;
-  padding: 0.3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
   box-decoration-break: clone;
 }
 .highlight {
