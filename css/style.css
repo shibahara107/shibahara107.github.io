@@ -82,6 +82,12 @@ img {
     /* position: relative; top: 30vh; */
     /* background-color: black; */
   }
+  .grid-4 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: : 30%;
+  }
 
   /* BACKGROUND */
   .full-background {
@@ -166,6 +172,12 @@ img {
     margin-bottom: 6%;
     position: relative; top: 40vh;
     background-color: black;
+  }
+  .grid-4 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    margin-bottom: : 30%;
   }
 
   /* BACKGROUND */
