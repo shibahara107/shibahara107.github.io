@@ -196,11 +196,18 @@ img {
 .main-nav li {
   margin-left: 36px;
 }
-
 .main-nav a {
   color: grey;
 }
 .main-nav a:hover {
+  color: white;
+}
+
+/* WORKS */
+.works a {
+  color: grey
+}
+.works a:hover {
   color: white;
 }
 
