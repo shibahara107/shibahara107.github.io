@@ -295,3 +295,119 @@ footer p{
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+.cssload-container {
+	position: absolute;
+	left: 50%;
+	width: 55px;
+	height: 55px;
+	margin-top: -27px;
+	margin-left: -27px;
+	animation: cssload-rotate 2.4s steps(4) infinite;
+		-o-animation: cssload-rotate 2.4s steps(4) infinite;
+		-ms-animation: cssload-rotate 2.4s steps(4) infinite;
+		-webkit-animation: cssload-rotate 2.4s steps(4) infinite;
+		-moz-animation: cssload-rotate 2.4s steps(4) infinite;
+}
+
+.cssload-box {
+	position: absolute;
+	background-color: rgb(0,0,0);
+}
+
+.cssload-box1 {
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+}
+
+.cssload-box2 {
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 50%;
+	animation-name: drop;
+		-o-animation-name: drop;
+		-ms-animation-name: drop;
+		-webkit-animation-name: drop;
+		-moz-animation-name: drop;
+	animation-duration: 0.6s;
+		-o-animation-duration: 0.6s;
+		-ms-animation-duration: 0.6s;
+		-webkit-animation-duration: 0.6s;
+		-moz-animation-duration: 0.6s;
+	animation-timing-function: cubic-bezier;
+		-o-animation-timing-function: cubic-bezier;
+		-ms-animation-timing-function: cubic-bezier;
+		-webkit-animation-timing-function: cubic-bezier;
+		-moz-animation-timing-function: cubic-bezier;
+	animation-iteration-count: infinite;
+		-o-animation-iteration-count: infinite;
+		-ms-animation-iteration-count: infinite;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+}
+
+
+
+
+
+@keyframes drop {
+	0%	 { top: 0%;	left: 50%; }
+	50%	{ top: 50%; left: 50%; }
+	100% { top: 50%; left: 50%; }
+}
+
+@-o-keyframes drop {
+	0%	 { top: 0%;	left: 50%; }
+	50%	{ top: 50%; left: 50%; }
+	100% { top: 50%; left: 50%; }
+}
+
+@-ms-keyframes drop {
+	0%	 { top: 0%;	left: 50%; }
+	50%	{ top: 50%; left: 50%; }
+	100% { top: 50%; left: 50%; }
+}
+
+@-webkit-keyframes drop {
+	0%	 { top: 0%;	left: 50%; }
+	50%	{ top: 50%; left: 50%; }
+	100% { top: 50%; left: 50%; }
+}
+
+@-moz-keyframes drop {
+	0%	 { top: 0%;	left: 50%; }
+	50%	{ top: 50%; left: 50%; }
+	100% { top: 50%; left: 50%; }
+}
+
+@keyframes cssload-rotate {
+	from { transform: rotate(0deg);		}
+	to	 { transform: rotate(-360deg); }
+}
+
+@-o-keyframes cssload-rotate {
+	from { -o-transform: rotate(0deg);		}
+	to	 { -o-transform: rotate(-360deg); }
+}
+
+@-ms-keyframes cssload-rotate {
+	from { -ms-transform: rotate(0deg);		}
+	to	 { -ms-transform: rotate(-360deg); }
+}
+
+@-webkit-keyframes cssload-rotate {
+	from { -webkit-transform: rotate(0deg);		}
+	to	 { -webkit-transform: rotate(-360deg); }
+}
+
+@-moz-keyframes cssload-rotate {
+	from { -moz-transform: rotate(0deg);		}
+	to	 { -moz-transform: rotate(-360deg); }
+}

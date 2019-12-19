@@ -49,10 +49,14 @@
 
     <!-- LOADER -->
     <div class="loader-wrapper">
+      <div class="cssload-container">
+	<div class="cssload-box cssload-box1"></div>
+	<div class="cssload-box cssload-box2"></div>
+</div>
       </div>
     <script>
       $(window).on("load",function(){
-        $(".loader-wrapper").fadeOut("slow");
+        $(".loader-wrapper").animate({ width: "toggle"});
       });
     </script>
 
