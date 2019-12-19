@@ -296,10 +296,6 @@ footer p{
   align-items: center;
 }
 
-
-
-
-
 .cssload-container {
 	position: absolute;
 	left: 50%;
@@ -316,7 +312,7 @@ footer p{
 
 .cssload-box {
 	position: absolute;
-	background-color: rgb(0,0,0);
+	background-color: white;	
 }
 
 .cssload-box1 {
