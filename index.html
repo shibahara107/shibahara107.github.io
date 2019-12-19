@@ -22,14 +22,16 @@
   <!-- FAVICON(GITHUB) -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico
   <link rel="icon" href="http://www.https://shibahara107.github.io//favicon.ico?v=2" />
-</head>
 
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+</head>
 <body>
   <div id="home" class="full-background">
     <header class="page-header wrapper">
       <h1><a href="index.html"><img class="logo" src="images/logo.gif" alt="shibahara107"></a></h1>
       <nav>
-      <!-- <h1><a href="index.html"><video class="logo" src="images/logo(1).mp4" autoplay muted loop></a></h1> -->
+        <!-- <h1><a href="index.html"><video class="logo" src="images/logo(1).mp4" autoplay muted loop></a></h1> -->
         <ul class="main-nav">
           <li><a href="index.html">TOP</a></li>
           <li><a href="works.html">WORKS</a></li>
@@ -38,11 +40,25 @@
           <li><a href="https://www.instagram.com/shibahara107/" target="_blank">INSTA</a></li>
         </ul>
       </nav>
-  </div><!-- /#home -->
-  <footer>
-    <div class="wrapper">
-      <p><small>&copy; 2019 Yoshinori Shibahara</small></p>
+    </div><!-- /#home -->
+    <footer>
+      <div class="wrapper">
+        <p><small>&copy; 2019 Yoshinori Shibahara</small></p>
+      </div>
+    </footer>
+
+    <div class="loader-wrapper">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
     </div>
-  </footer>
-</body>
-</html>
+    <script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
+  </body>
+  </html>
