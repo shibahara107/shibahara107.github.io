@@ -16,7 +16,11 @@ body{
   padding: 0 0 300px;
 }
 a {
+  color: #8D9DB3;
   text-decoration: none;
+}
+a:hover {
+  color: royalblue;
 }
 img {
   max-width: 100%;
