@@ -281,6 +281,12 @@ img {
   margin-bottom: : 30%;
 }
 
+/* INDENT */
+p.indent {
+padding-left: 4em;
+text-indent: -4em;
+}
+
 /* BACKGROUND-IMAGE */
 #home #bio #works #no-bg .page-title {
   text-transform: none;
