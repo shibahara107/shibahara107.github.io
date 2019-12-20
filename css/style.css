@@ -236,6 +236,20 @@ img {
   background-color: black;
 }
 
+/* YOUTUBE */
+.youtube {
+position: relative;
+width: 100%;
+padding-top: 56.25%;
+}
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
 /* HIGHLIGHT */
 .highlight span {
   background-color: black;
@@ -260,11 +274,6 @@ img {
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: : 30%;
-}
-
-/* YOUTUBE */
-.youtube iframe{
-  /* width: 100vw; */
 }
 
 /* BACKGROUND-IMAGE */
