@@ -3,12 +3,17 @@
 /* COMMON */
 html {
   font-size: 100%;
+  position: relative;
+  min-height: 100%;
 }
 body{
   font-family: 'Roboto Mono', monospace;
   line-height: 1.7;
   color: grey;
   background-color: black;
+  margin: 0 0 100px;
+  /* bottom = footer height */
+  padding: 0 0 300px;
 }
 a {
   text-decoration: none;
@@ -238,9 +243,9 @@ img {
 
 /* YOUTUBE */
 .youtube {
-position: relative;
-width: 100%;
-padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
 }
 .youtube iframe {
   position: absolute;
@@ -284,8 +289,14 @@ padding-top: 56.25%;
 /* FOOTER */
 footer {
   background: black;
-  text-align: center;
-  padding: 26px 0;
+  text-align: left;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 26px;
+  width: 100%;
+  overflow: hidden;
 }
 footer p{
   color: grey;
